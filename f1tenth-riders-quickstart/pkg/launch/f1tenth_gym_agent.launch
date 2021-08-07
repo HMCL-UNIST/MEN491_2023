@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+     
+    <arg name="F1TENTH_AGENT_NAME" value="ego"/>
+   <env name="F1TENTH_AGENT_NAME" value="ego"/>
+ 
+    <node pkg="pkg" type="gap_follow_agent.py" name="gym_agent_$(arg F1TENTH_AGENT_NAME)" output="screen"/>
+</launch>
