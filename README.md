@@ -113,7 +113,7 @@ Once you fill and complete the skeleton codes, you can start to drive by launch 
 </launch>
  ```
 
-## Autonomous driving in simulation demo videos 
+## Demo videos 
 ### wall following
 ![wall following](./f1tenth-riders-quickstart/wallfollowing.gif "wall following")
 ### gap following in map with obstacles 
