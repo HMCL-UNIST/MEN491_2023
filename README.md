@@ -40,7 +40,7 @@ To run the simulation, launch [gym_bridge_rviz.launch](./f1tenth-riders-quicksta
 ```bash
 source ~/yourworkspace_name/devel/setup.bash
 roslaunch f1tenth_gym_ros gym_bridge_rviz.launch
-'''
+```
 
 There are two maps, one with obstacle-free and the another has obstacles on the road. 
 The maps are saved in [map](./f1tenth-riders-quickstart/f1tenth_gym_ros/maps/)
