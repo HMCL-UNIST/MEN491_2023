@@ -76,7 +76,7 @@ This can be easily done by just initiate your algorithm for ego-vehicle to the o
 </launch>
 
 ```
-Once you launch the above simulation, you will see the image like below, and vehicle is not moving at all. 
+Once you launch the above simulation, you will see the image like below, and vehicle will not move at all. 
 
 ![Simulation environment](./f1tenthSimulation.png "Simulation environment")
 
