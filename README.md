@@ -81,6 +81,7 @@ Once you launch the above simulation, you will see the image like below, and veh
 ![Simulation environment](./f1tenthSimulation.png "Simulation environment")
 
 To control the vehicle, you need to implement your own algorithms (which you will do it during Practical sessions).
+
 There are two skeleton codes to help you start. 
 1. [wall following](./f1tenth-riders-quickstart/pkg/nodes/wall_follow_agnet.py)
 2. [gap following](./f1tenth-riders-quickstart/pkg/nodes/gap_follow_agent.py)
@@ -92,6 +93,7 @@ Once you fill and complete the skeleton codes, you can start to drive by launch 
  ```
 
  From the launch file, you can select which algorithm to run by changing the type of the node. 
+ 
  For wall following module 
  ```xml 
  <?xml version="1.0"?>
