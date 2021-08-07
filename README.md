@@ -1,7 +1,7 @@
 # MEN491_2021
 Creating Autonomous vehicle Lecture materials, MEN491 (2021, UNIST)
 
-# Installaion 
+# Installation 
 clone this repository into your workspace and install required packages:
 
 ```bash
