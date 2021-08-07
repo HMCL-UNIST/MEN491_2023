@@ -46,7 +46,8 @@ There are two maps, one with obstacle-free and the another has obstacles on the 
 The maps are saved in [map](./f1tenth-riders-quickstart/f1tenth_gym_ros/maps/)
 
 To change the map, we need to edit environment variables which can be done in [gym_bridge_rviz.launch](./f1tenth-riders-quickstart/f1tenth_gym_ros/launch/gym_bridge_rviz.launch).
-To change the map, edit the "RACE_MAP_PATH" value.
+Edit the "RACE_MAP_PATH" value.
+
 To add opponent vehicle in the race, set "1" for "RACE_SCENARIO". 
 If you simulate with opponent, you need to implement how they will drive in simulation (like your ego-vehicle).
 This can be easily done by just initiate your algorithm for ego-vehicle to the opponent vehicle as well. 
