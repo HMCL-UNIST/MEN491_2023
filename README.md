@@ -82,8 +82,9 @@ Once you launch the above simulation, you will see the image like below, and veh
 
 To control the vehicle, you need to implement your own algorithms (which you will do it during Practical sessions).
 There are two skeleton codes to help you start. 
-1. [wall folloing](./f1tenth-riders-quickstart/pkg/nodes/wall_follow_agnet.py)
+1. [wall following](./f1tenth-riders-quickstart/pkg/nodes/wall_follow_agnet.py)
 2. [gap following](./f1tenth-riders-quickstart/pkg/nodes/gap_follow_agent.py)
+
 Once you fill and complete the skeleton codes, you can start to drive by launch [f1tenth_gym_agent.launch](./f1tenth-riders-quickstart/pkg/launch/f1tenth_gym_agent.launch)
 **Remember to initiate the simulation first before you initiate the agent launch file. 
 ```bash
