@@ -14,6 +14,12 @@ pip install --user -e gym
 cd ~/yourworkspace_name
 catkin_make
 ```
+If you do not have pip
+'''
+sudo apt update 
+sudo apt install python-pip
+'''
+
 Finally, check if the repo is working properly:
 
 ```bash
