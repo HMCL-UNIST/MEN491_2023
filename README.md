@@ -19,13 +19,6 @@ sudo apt update
 sudo apt install python-pip
 ```
 
-Finally, check if the repo is working properly:
-
-```bash
-cd pkg/src
-python -m pkg.main
-```
-
 if you face the "Could not find SDL" error, download the followings
 ```bash
 sudo apt-get install libsdl-image1.2-dev
