@@ -8,8 +8,7 @@ clone this repository into your workspace and install required packages:
 mkdir -p ~/yourworkspace_name/src
 cd ~/yourworkspace_name/src
 git clone https://github.com/HMCL-UNIST/MEN491_2021.git
-git checkout -b student 
-cd ~/yourworkspace_name/src/f1tenth-gym-quickstart
+cd ~/yourworkspace_name/src/MEN491_2021/f1tenth-gym-quickstart
 pip install --user -e gym
 cd ~/yourworkspace_name
 catkin_make
