@@ -21,7 +21,7 @@ catkin_make
 If you do not have "pip"
 ```
 sudo apt update 
-sudo apt install python-pip
+sudo apt install python3-pip
 ```
 
 if you face the "Could not find SDL" error, download the followings
