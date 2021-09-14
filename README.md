@@ -14,7 +14,7 @@ apt-get install unixodbc-dev
 pip3 install pyodbc
 pip3 install llvmlite==0.34.0
 cd ~/yourworkspace_name/src/MEN491_2021/f1tenth-riders-quickstart
-pip3 install —user -e gym
+pip3 install --user -e gym
 cd ~/yourworkspace_name
 catkin_make
 ```
