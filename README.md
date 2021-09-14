@@ -8,7 +8,7 @@ clone this repository into your workspace and install required packages:
 mkdir -p ~/yourworkspace_name/src
 cd ~/yourworkspace_name/src
 git clone https://github.com/HMCL-UNIST/MEN491_2021.git
-sudo apt-get install python3-pip sudo -H
+sudo apt-get install python3-pip 
 pip3 install --upgrade --ignore-installed pip setuptools
 apt-get install unixodbc-dev
 pip3 install pyodbc
