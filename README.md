@@ -8,8 +8,13 @@ clone this repository into your workspace and install required packages:
 mkdir -p ~/yourworkspace_name/src
 cd ~/yourworkspace_name/src
 git clone https://github.com/HMCL-UNIST/MEN491_2021.git
-cd ~/yourworkspace_name/src/MEN491_2021/f1tenth-gym-quickstart
-pip install --user -e gym
+sudo apt-get install python3-pip sudo -H
+pip3 install --upgrade --ignore-installed pip setuptools
+apt-get install unixodbc-dev
+pip3 install pyodbc
+pip3 install llvmlite==0.34.0
+cd ~/yourworkspace_name/src/MEN491_2021/f1tenth-riders-quickstart
+pip3 install —user -e gym
 cd ~/yourworkspace_name
 catkin_make
 ```
