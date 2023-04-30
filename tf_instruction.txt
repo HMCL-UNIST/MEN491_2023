@@ -1,0 +1,15 @@
+Instructions:
+
+1. Create a new Python file named "turtle_tf_broadcaster.py" and paste the skeleton code provided.
+2. Make the file executable with chmod +x turtle_tf_broadcaster.py.
+3. Launch the Turtlesim node using the command: rosrun turtlesim turtlesim_node.
+4. Run the skeleton Python code using the command: ./turtle_tf_broadcaster.py.
+5. Monitor the TF transformations using the command: rosrun tf tf_echo /world /turtle.
+
+Task for the students:
+
+1. Familiarize yourself with the skeleton code provided.
+2. Modify the skeleton code to handle multiple turtles.
+3. Create a simple Python script that subscribes to the TF transformations and calculates the distance between two turtles.
+4. (Optional) Implement a leader-follower behavior between two turtles using the calculated distance.
+
